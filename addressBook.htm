@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>KontaktBook</title>
+	<link rel="stylesheet" href="addressbook.css">
+	<script src="addressbook.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>KontaktBook</h1>
+		</div>
+
+		<div class="quickadd"><button id="QuickAdd">neu</button></div>
+
+		<div class="quickaddForm">
+
+			<label for="fullname">Name</label><input type="text" id="fullname" class="formFields">
+			<label for="phone">Telefon</label><input type="text" id="phone" class="formFields">
+			<label for="address">Address</label><input type="text" id="address" class="formFields">
+			<label for="group">Group</label><input type="text" id="group" class="formFields">
+			<label for="email">E-Mail</label><input type="text" id="email" class="formFields">
+			<br><br>
+			<button id="Add">Hinzufügen</button><button id="Cancel">Abbruch</button>
+		</div>
+		<div class="header">
+			<div class="name"><button value="fullname" id="nameSort">Name</button></div>
+			<div class="email"><button value="email" id="emailSort">email</button></div>
+			<div class="phone"><button value="phone" id="phoneSort">phone</button></div>
+			<div class="address"><button value="address" id="adressSort">Adress</button></div>
+			<div class="group"><button value="group" id="groupSort">Group</button></div>
+			<div class="del"></div>
+		</div>
+
+		<div class="addbook">
+			
+			
+		</div>
+	</div>
+</body>
+</html>
