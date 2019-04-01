@@ -1,2 +1,3 @@
 # Dahda-Mandengue
-Javscript Project
+Javascript Project
+Dahda Flora and Yeye Mandengue Raymonde
